@@ -14,3 +14,4 @@ This extension uses OMDb.com API, which is limited to 1000/day on a free API lic
 
 # Result
 
+![alt text](https://github.com/konstantinosftw/letterboxed-imdb-rt/blob/master/letterboxed-cthulhu.jpg "Call of Cthulhu")
