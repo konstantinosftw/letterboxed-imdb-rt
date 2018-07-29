@@ -1,0 +1,29 @@
+{
+    "name": "Letterboxed IMdB RT",
+    "version": "1.0",
+    "description": "Load IMdB and Rotten Tomatoes scores in Letterboxed!",
+    "manifest_version": 2,
+    "icons": {
+        "128": "lir-128.png"
+    },
+    "browser_action": {
+        "default_icon": "lir.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://letterboxd.com/film/*"
+            ],
+            "css": [
+                "lir.css"
+            ],
+            "js": [
+                "jquery-3.1.1.min.js",
+                "lir.js"
+            ]
+        }
+    ]
+    // "permissions": [
+    //     "https://lyric-api.herokuapp.com/api/find/*"
+    // ]
+}

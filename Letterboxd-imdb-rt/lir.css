@@ -1,0 +1,14 @@
+#custom-ratings {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	font-family:'Franklin Gothic Medium'; 
+	font-size: 36px;
+	padding: 0 5px;
+}
+
+#custom-ratings img {
+	padding-right: 10px;
+	position: relative;
+	top: 50%;
+    transform: translate(0,-50%);
+}
